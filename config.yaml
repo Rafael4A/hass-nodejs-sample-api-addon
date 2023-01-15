@@ -1,0 +1,17 @@
+name: "Sample API"
+description: "Node API Add-on"
+version: "1.0.0"
+slug: "sample_nodejs_api"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: application
+boot: auto
+ports:
+  3001/tcp: null
+ports_description:
+  3001/tcp: Web interface
